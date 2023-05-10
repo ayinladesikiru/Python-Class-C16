@@ -27,12 +27,7 @@ for i in range(len(lst)):
 # for a in range(1, 11):
 #     doubles[a] = a ** 2
 
-from sys import getsizeof
-#
-double = [a ** 2 for a in range(1000000)]
-doubles = (a ** 2 for a in range(1000000))
-print(getsizeof(double))
-print(getsizeof(doubles))
+
 
 # def fizzbuzz(n):
 #     if n % 3 == 0 and n % 5 == 0:
@@ -45,52 +40,6 @@ print(getsizeof(doubles))
 
 # print(fizzbuzz(15))
 
-
-# list2 = [1, 2, 3, 4, 5, 6]
-#
-#
-# def square(n):
-#     return n ** 2
-#
-#
-# ans = list(map(square, list2))
-# print(ans)
-
-
-
-#
-# def odd_num(lzt):
-#     odd = []
-#     for n in lzt:
-#         if n % 2 != 0:
-#             odd.append(n)
-#
-#     return odd
-#
-#
-# print(odd_num(list3))
-
-list3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
-
-def odd_value(n):
-    if n % 2 != 0:
-        return n
-
-
-# print(list(filter(odd_value, list3)))
-
-
-# browsing_history = []
-# browsing_history.append("google.com")
-# browsing_history.append("semicolon.africa")
-# browsing_history.append("linkedln.com")
-# print(browsing_history)
-# browsing_history.pop()
-# print(browsing_history)
-# print(f"redirecting to {browsing_history[-1]}")
-# if not browsing_history:
-#     print("back button disabled")
 
 
 

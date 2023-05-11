@@ -57,6 +57,7 @@ print(student_records)
 
 
 def duplicate(dlst: list):
+    a
     no_duplicate = set(dlst)
     if len(no_duplicate) != len(dlst):
         print("there's duplicate")
@@ -72,9 +73,11 @@ def duplicate2(lzt: list):
             print(f"There's no duplicate")
 
 
-
-
-
+file = open("account.txt", mode='r')
+file.write("1001 sikiru 50000\n")
+file.write("1002 adewunmi 50000\n")
+file.write("1001 asa 50000\n")
+file.close()
 
 
 

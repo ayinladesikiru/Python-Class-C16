@@ -4,10 +4,10 @@ a, b = b, a
 
 lst = [25, 10, 15, 5, 30, 55, 35, 45, 20]
 
-for i in range(len(lst)):
-    for j in range(i + 1, len(lst)):
-        if lst[i] > lst[j]:
-            lst[i], lst[j], = lst[j], lst[i]
+# for i in range(len(lst)):
+#     for j in range(i + 1, len(lst)):
+#         if lst[i] > lst[j]:
+#             lst[i], lst[j], = lst[j], lst[i]
 
 # print(lst)
 # print(lst.sort())
@@ -26,7 +26,6 @@ for i in range(len(lst)):
 # doubles = {}
 # for a in range(1, 11):
 #     doubles[a] = a ** 2
-
 
 
 # def fizzbuzz(n):
@@ -53,40 +52,48 @@ student_records.append({"id": 6, "name": "Awwal", "score": (50, 70, 80)})
 student_records.append({"id": 7, "name": "Dele", "score": (50, 70, 80)})
 # print(student_records)
 student_records.pop(3)
-print(student_records)
 
 
-def duplicate(dlst: list):
-    a
-    no_duplicate = set(dlst)
-    if len(no_duplicate) != len(dlst):
-        print("there's duplicate")
-    else:
-        print("There's no duplicate")
+# print(student_records)
 
 
-def duplicate2(lzt: list):
-    for item in lzt:
-        if lzt.count(item) > 1:
-            print(f"The item {item} occurred more than once")
-        else:
-            print(f"There's no duplicate")
+# def duplicate(dlst: list):
+#     a
+#     no_duplicate = set(dlst)
+#     if len(no_duplicate) != len(dlst):
+#         print("there's duplicate")
+#     else:
+#         print("There's no duplicate")
 
 
-file = open("account.txt", mode='r')
-file.write("1001 sikiru 50000\n")
-file.write("1002 adewunmi 50000\n")
-file.write("1001 asa 50000\n")
-file.close()
+# def duplicate2(lzt: list):
+#     for item in lzt:
+#         if lzt.count(item) > 1:
+#             print(f"The item {item} occurred more than once")
+#         else:
+#             print(f"There's no duplicate")
 
 
+# file = open("account.txt", mode='r')
+# file.write("1001 sikiru 50000\n")
+# file.write("1002 adewunmi 50000\n")
+# file.write("1001 asa 50000\n")
+# file.close()
 
 
+def username_generator(email: str):
+    username = email.split("@")[0]
+    return f"Your username is {username}"
 
 
+# print(username_generator("ayinladesikiru@gmail.com"))
 
 
-
-
-
-
+x = {
+    "name": "Asa",
+    "age": 27,
+    "status": "married",
+    "isOnline": True,
+    "hobbies": ['politics', 'coding', 'football'],
+    "fashion": {},
+}

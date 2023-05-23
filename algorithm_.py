@@ -88,12 +88,8 @@ def username_generator(email: str):
 
 # print(username_generator("ayinladesikiru@gmail.com"))
 
+def palindrome(a: str):
+    return a == a[::-1]
 
-x = {
-    "name": "Asa",
-    "age": 27,
-    "status": "married",
-    "isOnline": True,
-    "hobbies": ['politics', 'coding', 'football'],
-    "fashion": {},
-}
+
+print(palindrome("dad"))
